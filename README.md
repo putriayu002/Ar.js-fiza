@@ -1,5 +1,7 @@
 # Penulis
-* Putri Ayu Asma'u Rofiza 191325002
+* Putri Ayu Asma'u Rofiza 191325002 
+* Pendidikan Teknologi Informasi
+* FKIP, Universitas Lampung
 
 ## Teknologi pendukung
 * A-Frame: Pustaka untuk melakukan rendering 3D pada web yang mengikuti aturan tag html. sumber: https://aframe.io/
