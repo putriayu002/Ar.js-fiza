@@ -61,17 +61,39 @@
 
         <!-- handle hiro marker -->
         <a-marker preset="hiro">
-            <a-plane width="1" height="1" position="0 0 0" rotation="-90 0 0" color="green">
-                <a-gltf-model src="#rabbit" rotation="90 0 0" position="0 -0.2 0.2" scale="0.5 0.5 0.5"></a-gltf-model>
-            </a-plane>
+
+          <a-entity gltf-model="#rabbit" animation-mixer></a-entity>
+
         </a-marker>
 
-        <!-- handle kanji marker -->
-        <a-marker preset="kanji" s>
+    
+
+
+
+<!-- handle matrix marker -->
+
+        <a-marker type="barcode" value="1">
+
             <a-plane width="1" height="1" position="0 0 0" rotation="-90 0 0" color="green">
-                <a-gltf-model src="#carrot" rotation="90 0 0" position="0 -0.2 0.2" scale="0.5 0.5 0.5"></a-gltf-model>
+
+                <a-gltf-model src="#rabbit" rotation="90 0 0" position="0 -0.2 0.2" scale="0.5 0.5 0.5"></a-gltf-model>
+
             </a-plane>
+
+        </a-marker>>
+
+        
+        <!-- handle kanji marker -->
+   
+
+<a-marker preset="kanji">
+
+            <a-entity gltf-model="#carrot"></a-entity>
+
         </a-marker>
+
+
+  
 
         <!-- add a simple camera -->
         <a-entity camera></a-entity>
